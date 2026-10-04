@@ -23,14 +23,10 @@ Everyone builds one model and runs it on both files. Pick any of the models belo
 
 | Model | Chart colour |
 |---|---|
-| Simple baseline | grey `#898781` |
+| Prophet | purple `#4a3aa7` |
 | SARIMAX | blue `#2a78d6` |
 | Linear regression | orange `#eb6834` |
 | Gradient boosting | green `#1baf7a` |
-
-The simple baseline needs no training. For petrol, predict each month with the same month one year earlier. For NO2, predict each day with the day 364 days earlier. It gives the other models something to beat.
-
-For the `policy` rows, only copy values from before the fare cut. Use the most recent one, so every policy August uses August 2023 and every policy March uses March 2024. For NO2, keep stepping back 364 days until you land before 5 August 2024. Copying a value from after the fare cut would hide the effect we're looking for.
 
 ## The `split` column
 
@@ -57,7 +53,9 @@ Petrol: `ctrl_litres_pp` (petrol per person in NSW and Victoria), `month_of_year
 
 NO2: `wind_speed`, `wind_u`, `wind_v`, `temp_c`, `temp_min_c`, `humidity_pct`, `pressure_hpa`, `rain_mm`, `day_of_week`, `day_of_year`, `is_public_holiday`, `is_school_holiday`.
 
-NO2 needs one more column. Pollution dropped in 2020 and stayed lower, and the model has to know about it. Use `t` if your model is gradient boosting. Use `post_covid` if it is linear regression or SARIMAX.
+NO2 needs one more column. Pollution dropped in 2020 and stayed lower, and the model has to know about it. Use `t` if your model is gradient boosting. Use `post_covid` if it is linear regression, SARIMAX or Prophet.
+
+Prophet works out the monthly and weekly patterns by itself, so leave out `month_of_year`, `day_of_week` and `day_of_year` if you are using it.
 
 ## Steps
 
@@ -84,7 +82,7 @@ If your model has settings, tune them before you do anything else. Default setti
 | SARIMAX | The order numbers (p, d, q) and the seasonal ones (P, D, Q). Trying 0, 1 and 2 for p and q is enough |
 | Gradient boosting | Tree depth, number of trees, learning rate, minimum leaf size |
 | Linear regression | Nothing in plain linear regression. If you use Ridge or Lasso, tune `alpha` |
-| Simple baseline | Nothing |
+| Prophet | `seasonality_prior_scale` and `seasonality_mode` (additive or multiplicative) |
 
 How to do it:
 
@@ -111,6 +109,20 @@ We need to show the result doesn't depend on one choice, so everyone runs their 
 - Gradient boosting on petrol: predict `qld_litres_pp / ctrl_litres_pp`, then multiply back by `ctrl_litres_pp`. Tree models can't predict a value lower than anything they saw in training, and petrol use keeps falling.
 - SARIMAX needs every date in order. Keep the `unused` rows and blank out their target. It also needs `pip install statsmodels`.
 - `rain_mm` is empty for the first half of 2016. Fill it with zero.
+- Prophet needs `pip install prophet`. It wants the date column renamed to `ds` and the column to predict renamed to `y`. Set `growth="flat"`, because its default straight-line trend keeps sloping after 2024 and invents a rise in pollution. It can't take empty cells in the input columns, so fill those first. Gaps in the dates are fine, so just leave the `unused` rows out.
+
+A Prophet model for petrol looks like this. The predictions come back in `pred["yhat"]`.
+
+```python
+from prophet import Prophet
+m = Prophet(growth="flat", weekly_seasonality=False, daily_seasonality=False, interval_width=0.95)
+m.add_regressor("ctrl_litres_pp")
+m.add_regressor("days_in_month")
+m.fit(train.rename(columns={"month": "ds", "qld_litres_pp": "y"}))
+pred = m.predict(validation.rename(columns={"month": "ds"}))
+```
+
+For NO2, set `weekly_seasonality=True`, rename `date` and `no2_ppb` instead, and add each input column with `add_regressor`.
 
 ## Charts to make
 
@@ -173,6 +185,7 @@ The closer the dots are to the line, the better the model.
 
 - Linear regression: a bar chart of the coefficients.
 - Gradient boosting: a bar chart of feature importance.
+- Prophet: on chart 1, shade the area between `yhat_lower` and `yhat_upper`. That is the range the model expects 95% of the time, so months where the black line drops below it are the ones that count.
 
 These show what drives petrol use and pollution, which is easy to talk about in the report.
 
@@ -180,7 +193,7 @@ The charts above are the minimum. Feel free to add any other chart you think wou
 
 ## For the combined charts
 
-we will make three charts that compare all the models: every model's predictions on one chart 1, error by model, and gap by model for both runs. For that, share two things.
+We will make three charts that compare all the models: every model's predictions on one chart 1, error by model, and gap by model for both runs. A simple "copy last year" forecast will be added to them in grey, to show that each model beats it. For that, share two things.
 
 Your numbers, in this layout:
 
