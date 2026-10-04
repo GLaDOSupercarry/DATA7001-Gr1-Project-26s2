@@ -1,0 +1,393 @@
+month,registrations,FUEL_TYPE
+2023-01-01,30511,All fuel types
+2023-01-01,4312,Diesel
+2023-01-01,1483,Electric
+2023-01-01,8,Gas
+2023-01-01,22980,Petrol
+2023-01-01,1658,Petrol And Electric
+2023-01-01,70,Petrol and Gas
+2023-02-01,30497,All fuel types
+2023-02-01,4577,Diesel
+2023-02-01,1,Diesel and Electric
+2023-02-01,2,Diesel and Gas
+2023-02-01,1181,Electric
+2023-02-01,17,Gas
+2023-02-01,23038,Petrol
+2023-02-01,1605,Petrol And Electric
+2023-02-01,76,Petrol and Gas
+2023-03-01,36406,All fuel types
+2023-03-01,5665,Diesel
+2023-03-01,1,Diesel and Electric
+2023-03-01,1444,Electric
+2023-03-01,17,Gas
+2023-03-01,27366,Petrol
+2023-03-01,1842,Petrol And Electric
+2023-03-01,71,Petrol and Gas
+2023-04-01,29029,All fuel types
+2023-04-01,4123,Diesel
+2023-04-01,1,Diesel and Electric
+2023-04-01,1,Diesel and Gas
+2023-04-01,1609,Electric
+2023-04-01,7,Gas
+2023-04-01,21546,Petrol
+2023-04-01,1695,Petrol And Electric
+2023-04-01,47,Petrol and Gas
+2023-05-01,35102,All fuel types
+2023-05-01,5120,Diesel
+2023-05-01,2,Diesel and Gas
+2023-05-01,1279,Electric
+2023-05-01,10,Gas
+2023-05-01,26782,Petrol
+2023-05-01,1833,Petrol And Electric
+2023-05-01,76,Petrol and Gas
+2023-06-01,38477,All fuel types
+2023-06-01,5802,Diesel
+2023-06-01,1,Diesel and Electric
+2023-06-01,2,Diesel and Gas
+2023-06-01,2200,Electric
+2023-06-01,15,Gas
+2023-06-01,27630,Petrol
+2023-06-01,2753,Petrol And Electric
+2023-06-01,74,Petrol and Gas
+2023-07-01,34459,All fuel types
+2023-07-01,5443,Diesel
+2023-07-01,3,Diesel and Electric
+2023-07-01,1,Diesel and Gas
+2023-07-01,1307,Electric
+2023-07-01,12,Gas
+2023-07-01,24616,Petrol
+2023-07-01,3004,Petrol And Electric
+2023-07-01,73,Petrol and Gas
+2023-08-01,37896,All fuel types
+2023-08-01,5620,Diesel
+2023-08-01,3,Diesel and Electric
+2023-08-01,3,Diesel and Gas
+2023-08-01,2420,Electric
+2023-08-01,12,Gas
+2023-08-01,26688,Petrol
+2023-08-01,3070,Petrol And Electric
+2023-08-01,80,Petrol and Gas
+2023-09-01,35938,All fuel types
+2023-09-01,6048,Diesel
+2023-09-01,1,Diesel and Electric
+2023-09-01,1,Diesel and Gas
+2023-09-01,1839,Electric
+2023-09-01,14,Gas
+2023-09-01,25633,Petrol
+2023-09-01,2326,Petrol And Electric
+2023-09-01,76,Petrol and Gas
+2023-10-01,34897,All fuel types
+2023-10-01,5645,Diesel
+2023-10-01,2,Diesel and Electric
+2023-10-01,2,Diesel and Gas
+2023-10-01,1218,Electric
+2023-10-01,11,Gas
+2023-10-01,25093,Petrol
+2023-10-01,2861,Petrol And Electric
+2023-10-01,65,Petrol and Gas
+2023-11-01,36873,All fuel types
+2023-11-01,6242,Diesel
+2023-11-01,1,Diesel and Electric
+2023-11-01,2300,Electric
+2023-11-01,10,Gas
+2023-11-01,25388,Petrol
+2023-11-01,2860,Petrol And Electric
+2023-11-01,72,Petrol and Gas
+2023-12-01,30644,All fuel types
+2023-12-01,5016,Diesel
+2023-12-01,1,Diesel and Gas
+2023-12-01,1586,Electric
+2023-12-01,5,Gas
+2023-12-01,1,Hydrogen
+2023-12-01,21319,Petrol
+2023-12-01,2661,Petrol And Electric
+2023-12-01,55,Petrol and Gas
+2024-01-01,33380,All fuel types
+2024-01-01,5355,Diesel
+2024-01-01,1,Diesel and Electric
+2024-01-01,1435,Electric
+2024-01-01,5,Gas
+2024-01-01,24040,Petrol
+2024-01-01,2486,Petrol And Electric
+2024-01-01,58,Petrol and Gas
+2024-02-01,35967,All fuel types
+2024-02-01,5354,Diesel
+2024-02-01,1,Diesel and Gas
+2024-02-01,2014,Electric
+2024-02-01,16,Gas
+2024-02-01,25275,Petrol
+2024-02-01,3253,Petrol And Electric
+2024-02-01,54,Petrol and Gas
+2024-03-01,36439,All fuel types
+2024-03-01,5334,Diesel
+2024-03-01,1,Diesel and Electric
+2024-03-01,2,Diesel and Gas
+2024-03-01,2208,Electric
+2024-03-01,12,Gas
+2024-03-01,24931,Petrol
+2024-03-01,3876,Petrol And Electric
+2024-03-01,75,Petrol and Gas
+2024-04-01,34303,All fuel types
+2024-04-01,5207,Diesel
+2024-04-01,1,Diesel and Electric
+2024-04-01,1,Diesel and Gas
+2024-04-01,1455,Electric
+2024-04-01,8,Gas
+2024-04-01,23055,Petrol
+2024-04-01,4528,Petrol And Electric
+2024-04-01,48,Petrol and Gas
+2024-05-01,37871,All fuel types
+2024-05-01,5798,Diesel
+2024-05-01,1,Diesel and Electric
+2024-05-01,1,Diesel and Gas
+2024-05-01,2267,Electric
+2024-05-01,13,Gas
+2024-05-01,25705,Petrol
+2024-05-01,4016,Petrol And Electric
+2024-05-01,70,Petrol and Gas
+2024-06-01,37528,All fuel types
+2024-06-01,5556,Diesel
+2024-06-01,1,Diesel and Electric
+2024-06-01,1,Diesel and Gas
+2024-06-01,2178,Electric
+2024-06-01,18,Gas
+2024-06-01,1,Hydrogen
+2024-06-01,25586,Petrol
+2024-06-01,4132,Petrol And Electric
+2024-06-01,55,Petrol and Gas
+2024-07-01,38922,All fuel types
+2024-07-01,5687,Diesel
+2024-07-01,1740,Electric
+2024-07-01,11,Gas
+2024-07-01,1,Hydrogen
+2024-07-01,26245,Petrol
+2024-07-01,5184,Petrol And Electric
+2024-07-01,54,Petrol and Gas
+2024-08-01,37136,All fuel types
+2024-08-01,5184,Diesel
+2024-08-01,3,Diesel and Electric
+2024-08-01,1,Diesel and Gas
+2024-08-01,1547,Electric
+2024-08-01,12,Gas
+2024-08-01,25544,Petrol
+2024-08-01,4780,Petrol And Electric
+2024-08-01,65,Petrol and Gas
+2024-09-01,36122,All fuel types
+2024-09-01,5403,Diesel
+2024-09-01,3,Diesel and Electric
+2024-09-01,1335,Electric
+2024-09-01,17,Gas
+2024-09-01,24995,Petrol
+2024-09-01,4326,Petrol And Electric
+2024-09-01,43,Petrol and Gas
+2024-10-01,37627,All fuel types
+2024-10-01,5458,Diesel
+2024-10-01,5,Diesel and Electric
+2024-10-01,1592,Electric
+2024-10-01,21,Gas
+2024-10-01,25926,Petrol
+2024-10-01,4556,Petrol And Electric
+2024-10-01,69,Petrol and Gas
+2024-11-01,35944,All fuel types
+2024-11-01,5870,Diesel
+2024-11-01,2,Diesel and Electric
+2024-11-01,1,Diesel and Gas
+2024-11-01,1404,Electric
+2024-11-01,10,Gas
+2024-11-01,24288,Petrol
+2024-11-01,4304,Petrol And Electric
+2024-11-01,65,Petrol and Gas
+2024-12-01,33295,All fuel types
+2024-12-01,5231,Diesel
+2024-12-01,1,Diesel and Electric
+2024-12-01,1680,Electric
+2024-12-01,8,Gas
+2024-12-01,22243,Petrol
+2024-12-01,4071,Petrol And Electric
+2024-12-01,61,Petrol and Gas
+2025-01-01,34849,All fuel types
+2025-01-01,5010,Diesel
+2025-01-01,3,Diesel and Electric
+2025-01-01,1063,Electric
+2025-01-01,8,Gas
+2025-01-01,24122,Petrol
+2025-01-01,4570,Petrol And Electric
+2025-01-01,73,Petrol and Gas
+2025-02-01,35342,All fuel types
+2025-02-01,5051,Diesel
+2025-02-01,6,Diesel and Electric
+2025-02-01,1,Diesel and Gas
+2025-02-01,1269,Electric
+2025-02-01,7,Gas
+2025-02-01,24364,Petrol
+2025-02-01,4595,Petrol And Electric
+2025-02-01,49,Petrol and Gas
+2025-03-01,34720,All fuel types
+2025-03-01,5267,Diesel
+2025-03-01,2,Diesel and Electric
+2025-03-01,3,Diesel and Gas
+2025-03-01,1649,Electric
+2025-03-01,9,Gas
+2025-03-01,22870,Petrol
+2025-03-01,4876,Petrol And Electric
+2025-03-01,44,Petrol and Gas
+2025-04-01,34408,All fuel types
+2025-04-01,5440,Diesel
+2025-04-01,5,Diesel and Electric
+2025-04-01,1,Diesel and Gas
+2025-04-01,1426,Electric
+2025-04-01,8,Gas
+2025-04-01,23434,Petrol
+2025-04-01,4033,Petrol And Electric
+2025-04-01,61,Petrol and Gas
+2025-05-01,39531,All fuel types
+2025-05-01,6409,Diesel
+2025-05-01,3,Diesel and Electric
+2025-05-01,3,Diesel and Gas
+2025-05-01,2351,Electric
+2025-05-01,17,Gas
+2025-05-01,25734,Petrol
+2025-05-01,4958,Petrol And Electric
+2025-05-01,56,Petrol and Gas
+2025-06-01,41224,All fuel types
+2025-06-01,6607,Diesel
+2025-06-01,2,Diesel and Electric
+2025-06-01,1,Diesel and Gas
+2025-06-01,2728,Electric
+2025-06-01,8,Gas
+2025-06-01,26816,Petrol
+2025-06-01,5018,Petrol And Electric
+2025-06-01,44,Petrol and Gas
+2025-07-01,41408,All fuel types
+2025-07-01,6542,Diesel
+2025-07-01,3,Diesel and Electric
+2025-07-01,1,Diesel and Gas
+2025-07-01,1832,Electric
+2025-07-01,10,Gas
+2025-07-01,1,Kerosene
+2025-07-01,27496,Petrol
+2025-07-01,5456,Petrol And Electric
+2025-07-01,67,Petrol and Gas
+2025-08-01,37991,All fuel types
+2025-08-01,5930,Diesel
+2025-08-01,1,Diesel and Electric
+2025-08-01,1977,Electric
+2025-08-01,12,Gas
+2025-08-01,25079,Petrol
+2025-08-01,4941,Petrol And Electric
+2025-08-01,51,Petrol and Gas
+2025-09-01,38256,All fuel types
+2025-09-01,5676,Diesel
+2025-09-01,274,Diesel and Electric
+2025-09-01,1,Diesel and Gas
+2025-09-01,2301,Electric
+2025-09-01,10,Gas
+2025-09-01,25156,Petrol
+2025-09-01,4783,Petrol And Electric
+2025-09-01,55,Petrol and Gas
+2025-10-01,37731,All fuel types
+2025-10-01,5471,Diesel
+2025-10-01,407,Diesel and Electric
+2025-10-01,1,Diesel and Gas
+2025-10-01,1715,Electric
+2025-10-01,8,Gas
+2025-10-01,24518,Petrol
+2025-10-01,5562,Petrol And Electric
+2025-10-01,49,Petrol and Gas
+2025-11-01,34235,All fuel types
+2025-11-01,4765,Diesel
+2025-11-01,448,Diesel and Electric
+2025-11-01,1,Diesel and Gas
+2025-11-01,1819,Electric
+2025-11-01,18,Gas
+2025-11-01,21348,Petrol
+2025-11-01,5792,Petrol And Electric
+2025-11-01,44,Petrol and Gas
+2025-12-01,35716,All fuel types
+2025-12-01,4910,Diesel
+2025-12-01,449,Diesel and Electric
+2025-12-01,1,Diesel and Gas
+2025-12-01,2139,Electric
+2025-12-01,7,Gas
+2025-12-01,22191,Petrol
+2025-12-01,5966,Petrol And Electric
+2025-12-01,53,Petrol and Gas
+2026-01-01,34154,All fuel types
+2026-01-01,4521,Diesel
+2026-01-01,468,Diesel and Electric
+2026-01-01,1,Diesel and Gas
+2026-01-01,1672,Electric
+2026-01-01,7,Gas
+2026-01-01,22164,Petrol
+2026-01-01,5270,Petrol And Electric
+2026-01-01,51,Petrol and Gas
+2026-02-01,35720,All fuel types
+2026-02-01,4704,Diesel
+2026-02-01,478,Diesel and Electric
+2026-02-01,2557,Electric
+2026-02-01,8,Gas
+2026-02-01,22899,Petrol
+2026-02-01,5030,Petrol And Electric
+2026-02-01,44,Petrol and Gas
+2026-03-01,40615,All fuel types
+2026-03-01,4883,Diesel
+2026-03-01,629,Diesel and Electric
+2026-03-01,3,Diesel and Gas
+2026-03-01,3605,Electric
+2026-03-01,15,Gas
+2026-03-01,24490,Petrol
+2026-03-01,6942,Petrol And Electric
+2026-03-01,48,Petrol and Gas
+2026-04-01,36373,All fuel types
+2026-04-01,4079,Diesel
+2026-04-01,676,Diesel and Electric
+2026-04-01,2,Diesel and Gas
+2026-04-01,3644,Electric
+2026-04-01,17,Gas
+2026-04-01,20700,Petrol
+2026-04-01,7223,Petrol And Electric
+2026-04-01,32,Petrol and Gas
+2026-05-01,37741,All fuel types
+2026-05-01,4313,Diesel
+2026-05-01,371,Diesel and Electric
+2026-05-01,3,Diesel and Gas
+2026-05-01,4552,Electric
+2026-05-01,6,Gas
+2026-05-01,21197,Petrol
+2026-05-01,7251,Petrol And Electric
+2026-05-01,48,Petrol and Gas
+2026-06-01,45080,All fuel types
+2026-06-01,4973,Diesel
+2026-06-01,591,Diesel and Electric
+2026-06-01,6667,Electric
+2026-06-01,9,Gas
+2026-06-01,24109,Petrol
+2026-06-01,8688,Petrol And Electric
+2026-06-01,43,Petrol and Gas
+2026-07-01,42392,All fuel types
+2026-07-01,4735,Diesel
+2026-07-01,696,Diesel and Electric
+2026-07-01,1,Diesel and Gas
+2026-07-01,4949,Electric
+2026-07-01,8,Gas
+2026-07-01,1,Kerosene
+2026-07-01,24031,Petrol
+2026-07-01,7916,Petrol And Electric
+2026-07-01,55,Petrol and Gas
+2026-08-01,38791,All fuel types
+2026-08-01,4401,Diesel
+2026-08-01,779,Diesel and Electric
+2026-08-01,1,Diesel and Gas
+2026-08-01,5465,Electric
+2026-08-01,4,Gas
+2026-08-01,21276,Petrol
+2026-08-01,6829,Petrol And Electric
+2026-08-01,36,Petrol and Gas
+2026-09-01,6304,All fuel types
+2026-09-01,696,Diesel
+2026-09-01,93,Diesel and Electric
+2026-09-01,694,Electric
+2026-09-01,5,Gas
+2026-09-01,3857,Petrol
+2026-09-01,952,Petrol And Electric
+2026-09-01,7,Petrol and Gas

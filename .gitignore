@@ -1,0 +1,10 @@
+# Large raw downloads -- regenerate with scripts/fetch_external_data.py
+data/raw/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
