@@ -30,6 +30,8 @@ Everyone builds one model and runs it on both files. Pick any of the models belo
 
 The simple baseline needs no training. For petrol, predict each month with the same month one year earlier. For NO2, predict each day with the day 364 days earlier. It gives the other models something to beat.
 
+For the `policy` rows, only copy values from before the fare cut. Use the most recent one, so every policy August uses August 2023 and every policy March uses March 2024. For NO2, keep stepping back 364 days until you land before 5 August 2024. Copying a value from after the fare cut would hide the effect we're looking for.
+
 ## The `split` column
 
 Both files have a `split` column that tells you which rows to use. Please don't make your own split, or our results won't line up.
