@@ -1,0 +1,5 @@
+Model,File,Run,Error,Bias,Gap
+SARIMAX,petrol,main,3.8,-3.22,-6.0
+SARIMAX,petrol,extra,3.73,-3.03,-4.48
+SARIMAX,no2,main,24.92,6.48,2.71
+SARIMAX,no2,extra,18.92,4.65,3.67
